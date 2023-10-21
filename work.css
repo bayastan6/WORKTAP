@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    background: var(--super-light-gray, #F7F6FF);
+}
+a{
+text-decoration: none;
+}
+button{
+    border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header-nav{
+    margin-right: 20px;
+}
+.header-nav a{
+    margin: 0 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-icons img{
+    margin: 0 15px;
+}
+.ernar{
+    display: flex;
+    align-items: center;
+}
+.ernar-img{
+margin: 0 10px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.service-left h1 {
+    color: #222;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.8px;
+padding: 10px 0 20px 0;
+}
+.service-left h1 span{
+    color: var(--green, #1DBF73);
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 1.8px;
+}
+.service-left h2{
+    color: var(--orange, #FBA457);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+margin-top: 110px;
+}
+.service-left p {
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+}
+.service-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 25px 0 50px 0;
+}
+.service-buttons button{
+    margin: 10px 20px 10px 0;
+    padding: 10px 20px;
+       color: var(--black, #222);
+font-size: 14px;
+font-weight: 400;
+border: none;
+background: transparent;
+transition: 0.5s;
+border: 1px solid #F2F0FE;
+border-radius: 50px;
+}
+.service-buttons button:hover{
+    color: var(--orange, #FBA457);
+font-size: 14px;
+font-weight: 500;
+    border-radius: 50px;
+border: 1px solid var(--orange, #FBA457);
+}
+.service-search {
+    position: absolute;
+    left: 0;
+    top: 360px;
+    border-radius: 0px 50px 50px 0px;
+background: var(--orange, #FBA457);
+padding: 10px 20px;
+color: var(--white, #F6FAFD);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+text-align: start;
+}
+.service-btn {
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+display: flex;
+width: 550px;
+padding: 15px 30px;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+border-radius: 20px;
+background: var(--light-gray, #F2F0FE);
+}
+.worktap-img{
+    position: relative;
+    right: 30px;
+    top: 35px;
+}
+.Ellipse1{
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+.money{
+    position: absolute;
+    top: 250px;
+    right: 525px;
+}
+.Ellipse2{
+    position: absolute;
+    right: 170px;
+    top: 210px;
+}
+.Ellipse3{
+    position: absolute;
+    top: 500px;
+    right: 520px;
+    z-index: -1;
+}
+.smart{
+    position: absolute;
+    top: 520px;
+    right: 275px;
+    
+}
+.Ellipse4{
+    position: absolute;
+    top: 285px;
+    right: 140px;
+}
+.Ellipse5 {
+    position: absolute;
+    right: 110px;
+    top: 445px;
+    z-index: -1;
+}
+.workers {
+    padding: 120px 0 0 0;
+}
+.workers-blocks h6 {
+    color: var(--black, #222);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+margin: 20px;
+}
+.workers-blocks h5 {
+    color: var(--green, #1DBF73);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+margin: 20px;
+}
+.workers-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.workers-blocks-create h1 {
+    color: var(--green, #1DBF73);
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 600;
+}
+.workers-blocks-create {
+    display: flex;
+    width: 260px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 20px 0;
+}
+.workers-blocks {
+    border-radius: 20px;
+border: 1px solid var(--light-gray, #F2F0FE);
+background: var(--white, #F6FAFD);
+box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.04);
+margin: 20px 0;
+width: 260px;
+}
+.workers-blocks img {
+    width: 260px;
+}
+.btn button:hover {
+    color: white;
+    background: #1DBF73;
+}
+.btn button {
+    color: var(--green, #1DBF73);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 1px solid var(--green, #1DBF73);
+    padding: 15px 45px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.reviews {
+    padding: 40px 0;
+}
+.reviews h2 {
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 0.48px;
+
+}
+.reviews-category {
+    padding: 20px 0 40px 0;
+}
+.reviews a {
+    padding: 0 40px 0 0;
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+}
+.reviews a:hover {
+    color: var(--green, #1DBF73);
+}
+.reviews-block h1{
+    color: var(--black, #222);
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+padding: 0 0 20px 0;
+}
+.reviews-block p {
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+padding-top: 20px;
+}
+.reviews-block {
+    display: inline-block;
+    border-radius: 20px;
+border: 1px solid var(--light-gray, #F2F0FE);
+background: var(--white, #F6FAFD);
+padding: 20px;
+margin: 20px 0;
+}
+.reviews-block-profile {
+    display: flex;
+    
+}
+.reviews-block-profile img {
+    padding-right: 20px;
+ }
+ .reviews-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .footer-a {
+    display: flex;
+    flex-direction: column;
+}
+.footer-a a {
+    padding: 5px 0;
+    color: var(--black, #222);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+}
+.footer-a a:hover {
+    color: #1DBF73;
+}
+.footer h3 {
+    padding-bottom: 20px;
+    color: var(--black, #222);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.48px;
+}
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+.footer-icons a {
+color: black;
+font-size: 25px;
+}
+.footer-icons a:hover {
+    color: #1DBF73;
+}
+.footer-end {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    color: var(--black, #222);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0.32px;
+}
+.footer-end:hover {
+    color: #1DBF73;
+}
+.footers {
+    padding: 45px 0;
+}
